@@ -20,8 +20,9 @@ The requirements for this assignment may be found in the file homework_instructi
 ## Coding Process 
 * We start with GitHub, setting up the repository for the application 
 * Clone the repository and set up the files required for this assignment, including .gitignore. 
-* npm init to set up package.json with the ability to add packages/modules with --save paramter as in 'npm install http --save' 
-* Utilize appropriate node packages to complete the tasks required for the assignemnt
+* npm init to set up package.json with the ability to add packages/modules with npm init -y
+* Added mysql package with npm install --save mysql
+* Utilize appropriate node packages to complete the tasks required for the assignemnt for example npm install --save inquirer
 * Set up comma-delimited file products.csv in Excel 
 * Executed mysql.server start and defined the database scheme for products_db   via mysql.server start
 * Entered Sequel Pro from localhost 127.0.0.1 with username root

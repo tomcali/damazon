@@ -1,0 +1,24 @@
+{
+  "name": "damazon",
+  "version": "1.0.0",
+  "description": "Week 12 Homework Project with MySQL",
+  "main": "damazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomcali/damazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomcali/damazon/issues"
+  },
+  "homepage": "https://github.com/tomcali/damazon",
+  "dependencies": {
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0"
+  }
+}
