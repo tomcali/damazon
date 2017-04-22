@@ -4,7 +4,9 @@ Week 12 Homework Project with MySQL
 ## Overview
 This assignment concerns node.js and its use as a tool for interacting with a relational database.
 
-I work through the instructions for the basic assignment, entering initial data for the store into a comma-delimited text file and creating a MySQL database using the Sequel Pro application. The database is called damazon_db.
+I work through most of the instructions for the basic assignment, entering initial data for the store into a comma-delimited text file and creating a MySQL database using the Sequel Pro application. The database is called damazon_db.
+
+Set up the structure for the node.js program damazonCustomer.js and began testing. 
 
 ## Viewing the App
 The GitHub repository shows the work on the assignment. 
@@ -28,8 +30,18 @@ The requirements for this assignment may be found in the file homework_instructi
 * Entered Sequel Pro from localhost 127.0.0.1 with username root
 * Created schema for products_db database using Sequel Pro (commands shown in create-database.sql)
 * Read the contents of products.csv into MySQL  using Sequel Pro
-* Wrote code handle user requests for product. 
-* Executed the work under node.js
+* Began the process of setting up code to handle user requests for product and quantity desired
+* Executed initial testing under node.js
   
 
 ## Application Testing
+ nodemon damazonCustomer.js
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node damazonCustomer.js`
+? Specify the item from soup to nuts: (Use arrow keys)
+? Specify the item from soup to nuts: soup
+? Enter quantity desired (How many units of soup would you like?) 
+
+check database and process order or give message
